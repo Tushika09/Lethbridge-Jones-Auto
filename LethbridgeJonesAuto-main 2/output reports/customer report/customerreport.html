@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Customer Lookup</h2>
+
+<form action="customerreport.php" method="POST">
+
+    <p>Search By:</p>
+
+    <select name="search_type">
+        <option value="id">Customer ID</option>
+        <option value="first_name">First Name</option>
+        <option value="last_name">Last Name</option>
+    </select>
+
+    <br><br>
+
+    Enter Value:
+    <input type="text" name="search_value" required>
+
+    <br><br>
+
+    Show Sales Records?
+
+    <select name="show_sales">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+    </select>
+
+    <br><br>
+
+    <input type="submit" value="Search">
+
+</form>
+
+</body>
+</html>

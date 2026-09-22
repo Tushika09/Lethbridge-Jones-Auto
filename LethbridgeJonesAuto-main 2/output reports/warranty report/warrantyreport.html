@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Warranty Lookup</h2>
+
+<form action="warrantyreport.php" method="POST">
+
+    <p>Search By:</p>
+
+    <select name="search_type">
+        <option value="id">Warranty ID</option>
+        <option value="sale_id">Sale ID</option>
+        <option value="vehicle_id">Vehicle ID</option>
+        <option value="start_date">Start Date (YYYY-MM-DD)</option>
+    </select>
+
+    <br><br>
+
+    Enter Value:
+    <input type="text" name="search_value" required>
+
+    <br><br>
+
+    <!-- Show Sales Records?
+
+    <select name="show_sales">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+    </select>
+
+    <br><br> -->
+
+    <input type="submit" value="Search">
+
+</form>
+
+</body>
+</html>

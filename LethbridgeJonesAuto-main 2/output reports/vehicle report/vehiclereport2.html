@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Vehicle Lookup</h2>
+
+<form action="vehiclereport2.php" method="POST">
+
+    <p>Search By:</p>
+
+    <select name="search_type">
+        <option value="vehicle_id">Vehicle ID</option>
+        <option value="make">Make</option>
+        <option value="model">Model</option>
+        <!-- <option value="sale_id">Sale ID</option>
+        <option value="customer_id">Vehicle ID</option> -->
+    </select>
+
+    <br><br>
+
+    Enter Value:
+    <input type="text" name="search_value" required>
+
+    <br><br>
+
+    In Stock?
+
+    <select name="in_stock">
+        <option value="yes">In Stock</option>
+        <option value="no">Sold</option>
+    </select>
+
+    <br><br>
+
+    <input type="submit" value="Search">
+
+</form>
+
+</body>
+</html>

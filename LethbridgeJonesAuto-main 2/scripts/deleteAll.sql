@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS warranty;
+DROP TABLE IF EXISTS payment;
+DROP TABLE IF EXISTS sale;
+DROP TABLE IF EXISTS employee;
+DROP TABLE IF EXISTS customer_employment_history;
+DROP TABLE IF EXISTS customer;
+DROP TABLE IF EXISTS problem;
+DROP TABLE IF EXISTS purchase;
+DROP TABLE IF EXISTS vehicle;
